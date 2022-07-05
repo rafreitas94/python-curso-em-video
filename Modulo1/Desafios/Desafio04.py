@@ -1,5 +1,5 @@
 n = input('Digite algo: ')
-print('É alfanumérico? {}'.format(n.isalnum()))
+print('É do tipo {}'.format(type(n)))
 print('É alfabético? {}'.format(n.isalpha()))
 print('O char é ASCII? {}'.format(n.isascii()))
 print('É dígito? {}'.format(n.isdigit()))
